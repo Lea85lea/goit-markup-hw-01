@@ -4,51 +4,82 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Landing page for GoIT project" />
-    <title>GoIT Homework #1</title>
+    <meta name="description" content="Web Studio Landing Page" />
+    <title>Web Studio</title>
 </head>
 
 <body>
+    <!-- Header -->
     <header>
-        <a href="/" class="logo">GoIT Project</a>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="contact-info">
-            <a href="mailto:info@example.com">info@example.com</a>
-            <a href="tel:+123456789">+123456789</a>
+        <div class="container">
+            <!-- Logo -->
+            <a href="/" class="logo">
+                <img src="images/logo.jpg" alt="Web Studio Logo" width="150" />
+            </a>
+            <!-- Navigation -->
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <main>
-        <section id="about">
-            <h1>About Our Services</h1>
-            <p>We provide top-notch services for your business needs.</p>
-        </section>
-
-        <section id="services">
-            <h2>Our Services</h2>
-            <ul>
-                <li>
-                    <img src="images/service1.jpg" alt="Service 1" width="300" />
-                    <p>High-quality service 1.</p>
-                </li>
-                <li>
-                    <img src="images/service2.jpg" alt="Service 2" width="300" />
-                    <p>High-quality service 2.</p>
-                </li>
-            </ul>
+    <!-- Hero Section (Banner) -->
+    <section id="hero">
+        <img src="images/banner.jpg" alt="Web Studio Banner" width="100%" />
+        <div class="hero-text">
+            <h1>Welcome to Web Studio</h1>
+            <p>Creating beautiful and functional websites for your business.</p>
             <button type="button">Order Service</button>
-        </section>
-    </main>
+        </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of professionals who are passionate about web design and development.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul class="services-list">
+            <li>
+                <img src="images/service1.jpg" alt="Service 1" width="300" />
+                <h3>Service 1</h3>
+                <p>Description of service 1.</p>
+            </li>
+            <li>
+                <img src="images/service2.jpg" alt="Service 2" width="300" />
+                <h3>Service 2</h3>
+                <p>Description of service 2.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Our Portfolio</h2>
+        <p>Explore our latest projects.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@webstudio.com">info@webstudio.com</a></p>
+        <p>Phone: <a href="tel:+123456789">+123456789</a></p>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <a href="/" class="logo">GoIT Project</a>
-        <p>Contact us at info@example.com</p>
+        <div class="container">
+            <a href="/" class="logo">Web Studio</a>
+            <p>&copy; 2025 Web Studio. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 
